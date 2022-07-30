@@ -33,6 +33,10 @@ export { default as IconSun } from '../../node_modules/@nuxt/content-theme-docs/
 export { default as IconTranslate } from '../../node_modules/@nuxt/content-theme-docs/src/components/global/icons/IconTranslate.vue'
 export { default as IconTwitter } from '../../node_modules/@nuxt/content-theme-docs/src/components/global/icons/IconTwitter.vue'
 export { default as IconX } from '../../node_modules/@nuxt/content-theme-docs/src/components/global/icons/IconX.vue'
+export { default as Button } from '../../components/Button/Button.vue'
+export { default as CounterButton } from '../../components/CounterButton/CounterButton.vue'
+export { default as DropDown } from '../../components/DropDown/DropDown.vue'
+export { default as DropDownMyOption } from '../../components/DropDown/MyOption.vue'
 
 // nuxt/nuxt.js#8607
 function wrapFunctional(options) {

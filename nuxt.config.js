@@ -12,6 +12,10 @@ export default theme({
 			remarkPlugins: ['remark-plugin-vue-live']
 		}
 	},
+	components:{
+		global: true,
+		dirs: ['./components']
+	},
 	router: {
 		base: '/docgen-nuxt/'
 	},
@@ -23,17 +27,10 @@ export default theme({
 		extend(config) {
 			// make template coiler available at runtime
 			config.resolve.alias['vue$'] = 'vue/dist/vue.esm.js'
-			// avoid failing to load vue components with docs additional content
-			config.module.rules.push({
-				resourceQuery: /blockType=docs/,
-				loader: require.resolve('./docs/empty-object-loader')
-			})
 		}
 	},
 	plugins: [
 		// register the vue-live component
 		resolve(__dirname, './plugins/vue-live.js'),
-		// register all documented components
-		resolve(__dirname, './plugins/docgen-register-all.js')
 	]
 })

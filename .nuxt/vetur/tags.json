@@ -103,5 +103,17 @@
   },
   "IconX": {
     "description": "Auto imported from components/global/icons/IconX.vue"
+  },
+  "Button": {
+    "description": "Auto imported from ../../../../components/Button/Button.vue"
+  },
+  "CounterButton": {
+    "description": "Auto imported from ../../../../components/CounterButton/CounterButton.vue"
+  },
+  "DropDown": {
+    "description": "Auto imported from ../../../../components/DropDown/DropDown.vue"
+  },
+  "DropDownMyOption": {
+    "description": "Auto imported from ../../../../components/DropDown/MyOption.vue"
   }
 }

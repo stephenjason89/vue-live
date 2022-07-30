@@ -41,3 +41,7 @@ You can directly use them in pages and other components without the need to impo
 - `<IconTranslate>` | `<icon-translate>` (components/global/icons/IconTranslate.vue)
 - `<IconTwitter>` | `<icon-twitter>` (components/global/icons/IconTwitter.vue)
 - `<IconX>` | `<icon-x>` (components/global/icons/IconX.vue)
+- `<Button>` | `<button>` (../../../../components/Button/Button.vue)
+- `<CounterButton>` | `<counter-button>` (../../../../components/CounterButton/CounterButton.vue)
+- `<DropDown>` | `<drop-down>` (../../../../components/DropDown/DropDown.vue)
+- `<DropDownMyOption>` | `<drop-down-my-option>` (../../../../components/DropDown/MyOption.vue)

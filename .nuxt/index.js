@@ -30,7 +30,6 @@ import nuxt_plugin_i18n_6bd029b2 from 'nuxt_plugin_i18n_6bd029b2' // Source: ../
 import nuxt_plugin_vuescrollactive_41e62aee from 'nuxt_plugin_vuescrollactive_41e62aee' // Source: ../node_modules/@nuxt/content-theme-docs/src/plugins/vue-scrollactive (mode: 'all')
 import nuxt_plugin_menu_4ba55674 from 'nuxt_plugin_menu_4ba55674' // Source: ../node_modules/@nuxt/content-theme-docs/src/plugins/menu.client (mode: 'client')
 import nuxt_plugin_vuelive_7e0ed3a7 from 'nuxt_plugin_vuelive_7e0ed3a7' // Source: ../plugins/vue-live.js (mode: 'all')
-import nuxt_plugin_docgenregisterall_72346728 from 'nuxt_plugin_docgenregisterall_72346728' // Source: ../plugins/docgen-register-all.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -293,10 +292,6 @@ async function createApp(ssrContext, config = {}) {
 
   if (typeof nuxt_plugin_vuelive_7e0ed3a7 === 'function') {
     await nuxt_plugin_vuelive_7e0ed3a7(app.context, inject)
-  }
-
-  if (typeof nuxt_plugin_docgenregisterall_72346728 === 'function') {
-    await nuxt_plugin_docgenregisterall_72346728(app.context, inject)
   }
 
   // Lock enablePreview in context
