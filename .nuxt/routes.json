@@ -1,0 +1,16 @@
+[
+  {
+    "name": "releases___en",
+    "path": "/releases",
+    "component": "/Users/stephenjasonwang/Development/vue-styleguidist/node_modules/@nuxt/content-theme-docs/src/pages/releases.vue",
+    "chunkName": "pages/releases",
+    "_name": "_86af109a"
+  },
+  {
+    "name": "slug___en",
+    "path": "/:slug?",
+    "component": "/Users/stephenjasonwang/Development/vue-styleguidist/node_modules/@nuxt/content-theme-docs/src/pages/_slug.vue",
+    "chunkName": "pages/_slug",
+    "_name": "_cb9c0c9a"
+  }
+]

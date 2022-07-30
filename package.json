@@ -1,0 +1,19 @@
+{
+	"license": "MIT",
+	"scripts": {
+		"dev": "nuxt dev",
+		"styleguide": "concurrently \"vue-docgen --watch\" \"nuxt dev\"",
+		"styleguide:build": "vue-docgen && nuxt generate"
+	},
+	"dependencies": {
+		"@nuxt/content-theme-docs": "^0.3.1",
+		"concurrently": "^5.3.0",
+		"nuxt": "^2.15.8",
+		"remark-plugin-vue-live": "^1.0.5",
+		"vue-docgen-api": "^4.47.0",
+		"vue-docgen-cli": "^4.31.1",
+		"vue-inbrowser-compiler-utils": "^4.32.1",
+		"vue-live": "^1.14.2",
+		"vue-simple-docgen-loader": "^4.32.4"
+	}
+}
